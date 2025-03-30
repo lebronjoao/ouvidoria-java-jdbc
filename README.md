@@ -31,7 +31,7 @@ Este projeto implementa um sistema de Ouvidoria com funcionalidades CRUD (Criar,
    );
    ```
 
-2. **Configure a conexão JDBC** no arquivo `DatabaseConnection.java`:
+2. **Configure a conexão JDBC** no arquivo `Main.java`:
    ```java
    String JDBC_URL = "jdbc:mysql://localhost:3306/ouvidoria-java2";
    String JDBC_USER = "root";
